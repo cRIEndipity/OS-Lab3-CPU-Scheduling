@@ -1,0 +1,14 @@
+\nMULTILEVEL QUEUE SCHEDULING
+Queue 1: Round Robin (Quantum = 2 ms)
+Queue 2: FCFS
+\nGANTT CHART
+| P1 [0-2] | P2 [2-4] | P1 [4-6] | P5 [6-8] | P2 [8-10] | P1 [10-11] | P3 [11-17] | P4 [17-20] |
+\nPROCESS PERFORMANCE
+PID\tAT\tBT\tCT\tTAT\tWT
+P1\t0\t5\t11\t11\t6
+P2\t1\t4\t10\t9\t5
+P3\t0\t6\t17\t17\t11
+P4\t2\t3\t20\t18\t15
+P5\t3\t2\t8\t5\t3
+\nAverage Turnaround Time: 12.0 ms
+Average Waiting Time: 8.0 ms
